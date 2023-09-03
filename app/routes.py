@@ -7,3 +7,8 @@ from app.models import TennisCourt
 def home():
 
     return render_template("home.html")
+
+@app.route("/courts", methods=["GET", "POST"])
+def courts():
+
+    return render_template("courts.html")

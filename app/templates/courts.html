@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block navbar_links %}
+    <div class="me-3">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('home') }}"><b>Home</b></a>
+        </li>
+        
+    </div>  
+    <div>
+        <li class="nav-item active" style="border-bottom: solid lightgrey;">
+            <a class="nav-link" href="{{ url_for('courts') }}"><b>Courts</b></a>
+        </li>
+    </div>
+{% endblock navbar_links %}
+
+{% block main %}
+
+    <div>
+
+    </div>
+
+{% endblock main %}
